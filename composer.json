@@ -1,0 +1,23 @@
+{
+  "name": "vphe/typeform",
+  "description": "Typeform API PHP client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philipp Volkov",
+      "email": "vphe@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "php" : ">=5.6",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "vphe\\Typeform\\": "src"
+    }
+  }
+}
