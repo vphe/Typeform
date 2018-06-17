@@ -90,9 +90,12 @@ class FormFieldProperties extends Model
     /**
      * Shape to display on the scale's steps. Available for opinion_scale and rating types.
      *
-     * @var string
+     * Valid values: cat, circle, cloud, crown, dog, droplet, flag, heart, lightbulb, pencil, skull, star,
+     * thunderbolt, tick, trophy, up, user
+     *
+     * @var string $shape
      */
-    public $shape;
+    public $shape = 'star';
 
     /**
      * Label to help respondents understand the scale's range.
